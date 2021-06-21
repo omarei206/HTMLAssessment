@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Assessment</title>
+  </head>
+
+  <body>
+    <h1>TEXT</h1>
+    <p><strong>Lorem</strong>  enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <br>
+    <blockquote><em><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em></blockquote>
+    <br>
+    <p><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    <h1>TABLE</h1>
+    <table>
+      <thead>
+        <caption>Scores By Quarter</caption>
+      </thead>
+      <tbody>
+        <tr>
+          <th rowspan="2">Team Name</th>
+          <th colspan="2">First Half</th>
+          <th colspan="2">Second Half</th>
+        </tr>
+        <tr>
+          <th>1st Quarter</th>
+          <th>2nd Quarter</th>
+          <th>3rd Quarter</th>
+          <th>4th Quarter</th>
+          <th>Final</th>
+        </tr>
+        <tr>
+          <td>Denver</td>
+          <td>7</td>
+          <td>3</td>
+          <td>0</td>
+          <td>7</td>
+          <td>17</td>
+        </tr>
+        <tr>
+          <td>Chicago</td>
+          <td>0</td>
+          <td>6</td>
+          <td>3</td>
+          <td>6</td>
+          <td>15</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td><strong>Total</strong></td>
+          <td><strong>7</strong></td>
+          <td><strong>9</strong></td>
+          <td><strong>3</strong></td>
+          <td><strong>13</strong></td>
+          <td><strong>32</strong></td>
+        </tr>
+      </tfoot>
+
+    </table>
+    <h1>LIST</h1>
+
+
+    <ul>
+      <li>
+        <img src="broncosLogo.png" title="denver bronco's logo picture" width="75">
+        <br>
+        <a href="http://www.denverbroncos.com/" title="a link to the denver bronco's official site">Denver Broncos</a>
+      </li>
+      <ul>
+        <li>Coach: Vance Joseph</li>
+        <li>QB</li>
+        <ol>
+          <li>Brock Osweiler</li>
+          <li>Trevor Siemian</li>
+          <li> Peyton Manning (injured)</li>
+        </ol>
+      </ul>
+      <li>
+        <img src="bearsLogo.png" title="chicago bears' logo picture" width="75">
+        <br>
+        <a href="http://www.chicagobears.com/" title="a link to the chicago bears' official site">Chicago Bears</a>
+      </li>
+      <ul>
+        <li>Coach: Matt Nagy</li>
+        <li>QB</li>
+        <ol>
+          <li>Jay Cutler</li>
+          <li>David Foles</li>
+        </ol>
+      </ul>
+    </ul>
+
+    <h1>FORM</h1>
+
+    <form action="assessment.html" name="footballform">
+      <label for="firstname">First Name:
+      <input type="text" name="firstname" placeholder="Omar">
+      <label for="lastname">Last Name:
+      <input type="text" name="lastname" placeholder="Greg">
+      <br>
+
+      <label for="favoriteteam">Pick your favorite team:
+      <br>
+      <select name="favoriteteam">
+        <option value="broncos">Denver Broncos</option>
+        <option value="bears">Chicago Bears</option>
+        <option value="patriots">New England Patriots</option>
+        <option value="giants">New York Giants</option>
+        <option value="eagles">Philadelphia Eagles</option>
+      </select>
+      <br>
+      <label for="activity">I have:
+      <input type="checkbox" name="activity" value="attended">Attended
+      <input type="checkbox" name="activity" value="played">Played
+      <input type="checkbox" name="activity" value="coached">Coached
+      <input type="checkbox" name="activity" value="bet on">Bet on
+      <br>
+      <label for="activity">this sport.
+      <br>
+      <label for="level">For this sport I prefer the:
+      <input type="radio" name="level" value="amateur">Amateur
+      <input type="radio" name="level" value="college">College
+      <input type="radio" name="level" value="professional">Professional
+      <br>
+      <button type="submit">Submit Your Answers</button>
+    </form>
+
+  </body>
+
+</html>
