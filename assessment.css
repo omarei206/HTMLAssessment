@@ -1,0 +1,67 @@
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color : purple
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color : purple
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  color : purple
+}
+
+h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  color : purple
+}
+
+ul {
+  list-style-type : square;
+}
+
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+th{
+  color : orange
+}
+
+a {
+  color: red;
+  text-decoration: none;
+ } /* CSS link color (red) */
+
+a : hover {
+  color: green;
+  text-decoration: none;
+ } /* CSS link hover (green) */
+
+ blockquote{
+   background-color: red;
+   color : blue;
+ }
+
+ [alt="Broncos Logo"], [alt="Bears Logo"] {
+  visibility: hidden;
+}
+
+#teamRoster > li:last-child {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#teamRoster > li:first-child {
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#checkbox-grid > ul{
+  list-style-type : none;
+}
